@@ -9,8 +9,8 @@ import java.net.URL;
 
 public class iOSApp {
 
-    public static String userName = "sakshamagarwal";
-    public static String accessKey = "BObHQ2dZ0snkGSICFlIvcUJKmykOfmqU8CMjHHql4D3aLMfFkO";
+    public static String userName = System.getenv("LT_USERNAME");
+    public static String accessKey = System.getenv("LT_ACCESS_KEY");
 
     public String gridURL = "@beta-hub.lambdatest.com/wd/hub";
 
